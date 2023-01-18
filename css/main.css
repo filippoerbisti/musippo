@@ -1,3 +1,7 @@
+html {
+overflow: hidden;
+}
+
 body {
   background: #dfe7ef;
   font-family: "Bitter", serif;
@@ -23,6 +27,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   background-size: cover;
+  background: url('../img/bg.png');
 }
 @media screen and (max-width: 700px), (max-height: 500px) {
   .wrapper {
@@ -68,7 +73,7 @@ body {
   position: relative;
   z-index: 2;
   border-radius: 15px;
-  z-index: 1;
+  margin-bottom: 40px;
 }
 @media screen and (max-width: 576px), (max-height: 500px) {
   .player-cover {
